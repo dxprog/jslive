@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<!-- <meta name="viewport" content="width=240px; initial-scale=1.0, user-scalable=no" /> -->
+		<link rel="apple-touch-icon" href="KANON_SE/icon.png"/>
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<title>Kanon</title>
+		<script type="text/javascript" src="jquery.min.js"></script>
+		<script type="text/javascript" src="main.js"></script>
+		<script type="text/javascript" src="graphics_old.js"></script>
+		<style type="text/css">
+			html, body { width:100%; height:100%; background:#000; overflow:hidden; }
+			#container { width:640px; height:480px; position:relative; margin:auto; overflow:hidden; background:#fff; }
+			.image { position:absolute; top:0; left:0; overflow:hidden; width:640px; height:480px; }
+			img { position:absolute; }
+			#dialog { z-index:9001; position:absolute; left:0; bottom:0; width:560px; height:82px; padding:20px 40px; font:bold 18px 'Trebuchet MS', sans-serif; color:#fff; background:url(KANON_SE/images/msg_window.png) no-repeat; }
+			a { color:#ffb; text-decoration:none; }
+			#dialog span { display:block; float:left; height:82px; }
+			#dialog span.speaker { color:#79adff; padding:0 10px 0 0; }
+		</style>
+	</head>
+	<body>
+		<div id="container">
+			<canvas id="screen" width="640" height="480"></canvas>
+			<p id="dialog"></p>
+		</div>
+		<div style="margin:10px auto; width:400px; text-align:center; overflow:hidden;">
+			<button style="display:block; float:left; width:125px; height:30px;" id="stop">Stop</button>
+			<button style="display:block; float:left; width:125px; height:30px;" id="trace">Stack Trace</button>
+		</div>
+	</body>
+</html>
