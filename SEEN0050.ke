@@ -1,0 +1,1009 @@
+{-# cp utf8 #- Disassembled with Kprl 1.40 -}
+
+#file 'SEEN0050.TXT'
+#resource 'SEEN0050.utf'
+
+#kidoku_type 2
+#entrypoint 000
+title (#res<0000>)
+intF[2] = 0
+intA[1000] = 1000
+intA[1000] = 0
+bgmLoop ('BGM16')
+msgHide
+intF[1107] = 1
+grpOpenBg ('BG053', 0)
+#res<0001>
+strS[1900] = 'It\'s snowing.'
+gosub @147
+goto_unless (intC[0]) @1
+gosub @162
+goto @2
+
+  @1
+pause
+
+  @2
+#res<0002>
+strS[1900] = 'Pure white snow swirls down from the overcast sky.'
+gosub @147
+goto_unless (intC[0]) @3
+gosub @162
+goto @4
+
+  @3
+pause
+
+  @4
+#res<0003>
+strS[1900] = 'A damp wooden bench... cold, clear air...'
+gosub @147
+goto_unless (intC[0]) @5
+gosub @162
+goto @6
+
+  @5
+pause
+
+  @6
+#res<0004>
+strS[1900] = '__......'
+gosub @147
+goto_unless (intC[0]) @7
+gosub @162
+goto @8
+
+  @7
+pause
+
+  @8
+#res<0005>
+strS[1900] = 'I rouse my body, slumped on the bench, and correct my posture yet again.'
+gosub @147
+goto_unless (intC[0]) @9
+gosub @162
+goto @10
+
+  @9
+pause
+
+  @10
+#res<0006>
+strS[1900] = 'The stream of people leaving the snow-covered station has slowed to a trickle.'
+gosub @147
+goto_unless (intC[0]) @11
+gosub @162
+goto @12
+
+  @11
+pause
+
+  @12
+#res<0007>
+strS[1900] = 'Sighing white vapor, I glance at the town clock in the station plaza. It\'s three o\'clock.'
+gosub @147
+goto_unless (intC[0]) @13
+gosub @162
+goto @14
+
+  @13
+pause
+
+  @14
+#res<0008>
+strS[1900] = 'It\'s still daylight, but I can only guess at the position of the sun beyond the thick clouds.'
+gosub @147
+goto_unless (intC[0]) @15
+gosub @162
+goto @16
+
+  @15
+pause
+
+  @16
+#res<0009>
+strS[1900] = '__...late.'
+gosub @147
+goto_unless (intC[0]) @17
+gosub @162
+goto @18
+
+  @17
+pause
+
+  @18
+#res<0010>
+strS[1900] = 'I slump back into my seat and cast the single word into the sky.'
+gosub @147
+goto_unless (intC[0]) @19
+gosub @162
+goto @20
+
+  @19
+pause
+
+  @20
+#res<0011>
+strS[1900] = 'I\'m briefly blinded by the white mist of my frozen breath before the north wind sends it streaming away.'
+gosub @147
+goto_unless (intC[0]) @21
+gosub @162
+goto @22
+
+  @21
+pause
+
+  @22
+#res<0012>
+strS[1900] = 'A winter wind, piercing my skin...'
+gosub @147
+goto_unless (intC[0]) @23
+gosub @162
+goto @24
+
+  @23
+pause
+
+  @24
+#res<0013>
+strS[1900] = 'The ever-present snow, falling without end...'
+gosub @147
+goto_unless (intC[0]) @25
+gosub @162
+goto @26
+
+  @25
+pause
+
+  @26
+#res<0014>
+strS[1900] = 'The curtain of white flakes which hides the sky seems to be thickening out of spite.'
+gosub @147
+goto_unless (intC[0]) @27
+gosub @162
+goto @28
+
+  @27
+pause
+
+  @28
+#res<0015>
+strS[1900] = 'Once more I disturb the air with a sigh.'
+gosub @147
+goto_unless (intC[0]) @29
+gosub @162
+goto @30
+
+  @29
+pause
+
+  @30
+#res<0016>
+strS[1900] = 'This time, however, the puff of steam this evokes is not the only thing that obscures my vision.'
+gosub @147
+goto_unless (intC[0]) @31
+gosub @162
+goto @32
+
+  @31
+pause
+
+  @32
+msgHide
+intF[1107] = 1
+grpOpenBg ('FGNY02A', 0)
+#res<0017>
+strS[1900] = 'Girl......'
+gosub @147
+goto_unless (intC[0]) @33
+gosub @162
+goto @34
+
+  @33
+pause
+
+  @34
+#res<0018>
+strS[1900] = 'A girl is bending over to peer at my face; her head now separates me from the snowy clouds above.'
+gosub @147
+goto_unless (intC[0]) @35
+gosub @162
+goto @36
+
+  @35
+pause
+
+  @36
+koePlay (0)
+#res<0019>
+strS[1900] = 'GirlYou\'ve got snow on your head.'
+gosub @147
+goto_unless (intC[0]) @37
+gosub @162
+goto @38
+
+  @37
+pause
+
+  @38
+#res<0020>
+strS[1900] = 'I breathe out sharply through tight lips, expelling another cloud of vapor.'
+gosub @147
+goto_unless (intC[0]) @39
+gosub @162
+goto @40
+
+  @39
+pause
+
+  @40
+#res<0021>
+strS[1900] = '__That might be because I\'ve been sitting here for two hours...'
+gosub @147
+goto_unless (intC[0]) @41
+gosub @162
+goto @42
+
+  @41
+pause
+
+  @42
+#res<0022>
+strS[1900] = 'Under the circumstances, it\'s a miracle I\'m not buried up to my neck.'
+gosub @147
+goto_unless (intC[0]) @43
+gosub @162
+goto @44
+
+  @43
+pause
+
+  @44
+koePlay (1)
+#res<0023>
+strS[1900] = 'Girl...oh?'
+gosub @147
+goto_unless (intC[0]) @45
+gosub @162
+goto @46
+
+  @45
+pause
+
+  @46
+#res<0024>
+strS[1900] = 'The girl tilts her head curiously at my words.'
+gosub @147
+goto_unless (intC[0]) @47
+gosub @162
+goto @48
+
+  @47
+pause
+
+  @48
+koePlay (2)
+#res<0025>
+strS[1900] = 'GirlWhat time is it?'
+gosub @147
+goto_unless (intC[0]) @49
+gosub @162
+goto @50
+
+  @49
+pause
+
+  @50
+#res<0026>
+strS[1900] = '__Three o\'clock.'
+gosub @147
+goto_unless (intC[0]) @51
+gosub @162
+goto @52
+
+  @51
+pause
+
+  @52
+koePlay (3)
+#res<0027>
+strS[1900] = 'GirlReally? Already?'
+gosub @147
+goto_unless (intC[0]) @53
+gosub @162
+goto @54
+
+  @53
+pause
+
+  @54
+#res<0028>
+strS[1900] = 'Despite her words, she doesn\'t look at all surprised.'
+gosub @147
+goto_unless (intC[0]) @55
+gosub @162
+goto @56
+
+  @55
+pause
+
+  @56
+#res<0029>
+strS[1900] = 'Her voice is slow, feminine, and sleepy.'
+gosub @147
+goto_unless (intC[0]) @57
+gosub @162
+goto @58
+
+  @57
+pause
+
+  @58
+koePlay (4)
+#res<0030>
+strS[1900] = 'GirlI thought it was still about two.'
+gosub @147
+goto_unless (intC[0]) @59
+gosub @162
+goto @60
+
+  @59
+pause
+
+  @60
+#res<0031>
+strS[1900] = '...which would only have been one hour late.'
+gosub @147
+goto_unless (intC[0]) @61
+gosub @162
+goto @62
+
+  @61
+pause
+
+  @62
+koePlay (5)
+#res<0032>
+strS[1900] = 'GirlCan I ask you something?'
+gosub @147
+goto_unless (intC[0]) @63
+gosub @162
+goto @64
+
+  @63
+pause
+
+  @64
+#res<0033>
+strS[1900] = '__Go ahead.'
+gosub @147
+goto_unless (intC[0]) @65
+gosub @162
+goto @66
+
+  @65
+pause
+
+  @66
+koePlay (6)
+#res<0034>
+strS[1900] = 'GirlAren\'t you cold?'
+gosub @147
+goto_unless (intC[0]) @67
+gosub @162
+goto @68
+
+  @67
+pause
+
+  @68
+#res<0035>
+strS[1900] = '__I sure am.'
+gosub @147
+goto_unless (intC[0]) @69
+gosub @162
+goto @70
+
+  @69
+pause
+
+  @70
+#res<0036>
+strS[1900] = 'The snow was a novelty at first, but now it\'s just depressing me.'
+gosub @147
+goto_unless (intC[0]) @71
+gosub @162
+goto @72
+
+  @71
+pause
+
+  @72
+koePlay (7)
+#res<0037>
+strS[1900] = 'GirlHere.'
+gosub @147
+goto_unless (intC[0]) @73
+gosub @162
+goto @74
+
+  @73
+pause
+
+  @74
+#res<0038>
+strS[1900] = 'She hands me a can of coffee.'
+gosub @147
+goto_unless (intC[0]) @75
+gosub @162
+goto @76
+
+  @75
+pause
+
+  @76
+koePlay (8)
+#res<0039>
+strS[1900] = 'GirlTo make up for me being late.'
+gosub @147
+goto_unless (intC[0]) @77
+gosub @162
+goto @78
+
+  @77
+pause
+
+  @78
+koePlay (9)
+#res<0040>
+strS[1900] = 'Girl...and...'
+gosub @147
+goto_unless (intC[0]) @79
+gosub @162
+goto @80
+
+  @79
+pause
+
+  @80
+koePlay (10)
+#res<0041>
+strS[1900] = 'Girl...to celebrate us meeting again.'
+gosub @147
+goto_unless (intC[0]) @81
+gosub @162
+goto @82
+
+  @81
+pause
+
+  @82
+#res<0042>
+strS[1900] = '__Is a reunion after seven years only worth one can of coffee?'
+gosub @147
+goto_unless (intC[0]) @83
+gosub @162
+goto @84
+
+  @83
+pause
+
+  @84
+#res<0043>
+strS[1900] = 'I look again into the girl\'s face as I take the coffee.'
+gosub @147
+goto_unless (intC[0]) @85
+gosub @162
+goto @86
+
+  @85
+pause
+
+  @86
+#res<0044>
+strS[1900] = 'The can is still too hot to hold with bare hands.'
+gosub @147
+goto_unless (intC[0]) @87
+gosub @162
+goto @88
+
+  @87
+pause
+
+  @88
+#res<0045>
+strS[1900] = 'My numb fingertips appreciate the warmth though.'
+gosub @147
+goto_unless (intC[0]) @89
+gosub @162
+goto @90
+
+  @89
+pause
+
+  @90
+koePlay (11)
+#res<0046>
+strS[1900] = 'GirlSeven years... has it been that long?'
+gosub @147
+goto_unless (intC[0]) @91
+gosub @162
+goto @92
+
+  @91
+pause
+
+  @92
+#res<0047>
+strS[1900] = '__Yeah.'
+gosub @147
+goto_unless (intC[0]) @93
+gosub @162
+goto @94
+
+  @93
+pause
+
+  @94
+#res<0048>
+strS[1900] = 'Rolling the warm can between my hands...'
+gosub @147
+goto_unless (intC[0]) @95
+gosub @162
+goto @96
+
+  @95
+pause
+
+  @96
+#res<0049>
+strS[1900] = 'Comparing the snowy landscape around me with the few scraps of memory I retain from my early childhood...'
+gosub @147
+goto_unless (intC[0]) @97
+gosub @162
+goto @98
+
+  @97
+pause
+
+  @98
+koePlay (12)
+#res<0050>
+strS[1900] = 'GirlDo you remember my name?'
+gosub @147
+goto_unless (intC[0]) @99
+gosub @162
+goto @100
+
+  @99
+pause
+
+  @100
+#res<0051>
+strS[1900] = '__Do you remember mine?'
+gosub @147
+goto_unless (intC[0]) @101
+gosub @162
+goto @102
+
+  @101
+pause
+
+  @102
+koePlay (13)
+#res<0052>
+strS[1900] = 'GirlOf course!'
+gosub @147
+goto_unless (intC[0]) @103
+gosub @162
+goto @104
+
+  @103
+pause
+
+  @104
+#res<0053>
+strS[1900] = 'In the snow...'
+gosub @147
+goto_unless (intC[0]) @105
+gosub @162
+goto @106
+
+  @105
+pause
+
+  @106
+#res<0054>
+strS[1900] = 'In the snow-covered streets...'
+gosub @147
+goto_unless (intC[0]) @107
+gosub @162
+goto @108
+
+  @107
+pause
+
+  @108
+#res<0055>
+strS[1900] = 'Those memories of seven years ago... they seem only to be a breath away.'
+gosub @147
+goto_unless (intC[0]) @109
+gosub @162
+goto @110
+
+  @109
+pause
+
+  @110
+koePlay (14)
+#res<0056>
+strS[1900] = 'Girl__.'
+gosub @147
+goto_unless (intC[0]) @111
+gosub @162
+goto @112
+
+  @111
+pause
+
+  @112
+#res<0057>
+strS[1900] = '__Hanako'
+gosub @147
+strS[1900] = 'A generic girls\' name.'
+CallDLL (0, 22, 1181548)
+FontColour
+strS[1900] = '.'
+gosub @147
+goto_unless (intC[0]) @113
+gosub @162
+goto @114
+
+  @113
+pause
+
+  @114
+koePlay (15)
+#res<0058>
+strS[1900] = 'GirlNo~!'
+gosub @147
+goto_unless (intC[0]) @115
+gosub @162
+goto @116
+
+  @115
+pause
+
+  @116
+#res<0059>
+strS[1900] = '__Jiro'
+gosub @147
+strS[1900] = 'A generic boys\' name.'
+CallDLL (0, 22, 1181548)
+FontColour
+strS[1900] = '?'
+gosub @147
+goto_unless (intC[0]) @117
+gosub @162
+goto @118
+
+  @117
+pause
+
+  @118
+koePlay (16)
+#res<0060>
+strS[1900] = 'GirlI\'m a girl...'
+gosub @147
+goto_unless (intC[0]) @119
+gosub @162
+goto @120
+
+  @119
+pause
+
+  @120
+#res<0061>
+strS[1900] = 'She adopts a worried frown.'
+gosub @147
+goto_unless (intC[0]) @121
+gosub @162
+goto @122
+
+  @121
+pause
+
+  @122
+#res<0062>
+strS[1900] = 'Each word, like the snow which covers the ground, is filling the blank spaces of my memory.'
+gosub @147
+goto_unless (intC[0]) @123
+gosub @162
+goto @124
+
+  @123
+pause
+
+  @124
+#res<0063>
+strS[1900] = 'The snow falling past the girl\'s shoulders is getting even heavier.'
+gosub @147
+goto_unless (intC[0]) @125
+gosub @162
+goto @126
+
+  @125
+pause
+
+  @126
+#res<0064>
+strS[1900] = '__Okay, I think we\'ve wasted enough time chatting.'
+gosub @147
+goto_unless (intC[0]) @127
+gosub @162
+goto @128
+
+  @127
+pause
+
+  @128
+koePlay (17)
+#res<0065>
+strS[1900] = 'GirlBut... my name...'
+gosub @147
+goto_unless (intC[0]) @129
+gosub @162
+goto @130
+
+  @129
+pause
+
+  @130
+#res<0066>
+strS[1900] = '__Shall we get moving?'
+gosub @147
+goto_unless (intC[0]) @131
+gosub @162
+goto @132
+
+  @131
+pause
+
+  @132
+koePlay (18)
+#res<0067>
+strS[1900] = 'GirlMy name...'
+gosub @147
+goto_unless (intC[0]) @133
+gosub @162
+goto @134
+
+  @133
+pause
+
+  @134
+#res<0068>
+strS[1900] = 'The town of seven years ago...'
+gosub @147
+goto_unless (intC[0]) @135
+gosub @162
+goto @136
+
+  @135
+pause
+
+  @136
+#res<0069>
+strS[1900] = 'Surrounded by the snow of seven years ago...'
+gosub @147
+goto_unless (intC[0]) @137
+gosub @162
+goto @138
+
+  @137
+pause
+
+  @138
+#res<0070>
+strS[1900] = '__Let\'s go, Nayuki.'
+gosub @147
+goto_unless (intC[0]) @139
+gosub @162
+goto @140
+
+  @139
+pause
+
+  @140
+#res<0071>
+strS[1900] = 'My new life, caught like a flag in the winter wind, spreads out before me.'
+gosub @147
+goto_unless (intC[0]) @141
+gosub @162
+goto @142
+
+  @141
+pause
+
+  @142
+koePlay (19)
+#res<0072>
+strS[1900] = 'NayukiEh...?'
+gosub @147
+goto_unless (intC[0]) @143
+gosub @162
+goto @144
+
+  @143
+pause
+
+  @144
+msgHide
+intF[1107] = 1
+grpOpenBg ('FGNY02B', 0)
+koePlay (20)
+#res<0073>
+strS[1900] = 'NayukiOkay!'
+gosub @147
+goto_unless (intC[0]) @145
+gosub @162
+goto @146
+
+  @145
+pause
+
+  @146
+intB[1000] = 1
+bgmFadeOut (1200)
+msgHide
+intF[1107] = 1
+grpOpenBg ('SIRO', 26)
+wait (2000)
+farcall (8502)
+jump (70)
+halt
+CallDLL (0, 10, intC[1] | 1179648)
+goto @148
+
+  @147
+CallDLL (0, 10, 1181548)
+
+  @148
+DisableAutoSavepoints
+store = 8
+strS[1900] = '        '
+
+  @149
+goto_unless (store < 512) @150
+strS[1900] += strS[1900]
+store *= 2
+goto @149
+
+  @150
+CallDLL (0, 12, 1181548, 131073)
+goto_on store {  @159, @160, @158, @151, @152, @155, @156, @157 }
+goto @160
+
+  @151
+br
+goto @150
+
+  @152
+goto_unless (intC[0]) @153
+gosub @161
+goto @154
+
+  @153
+page
+
+  @154
+TextPos (0, 0)
+CallDLL (0, 13, 1181548)
+goto @150
+
+  @155
+SetIndent
+goto @150
+
+  @156
+ClearIndent
+goto @150
+
+  @157
+FontColour (6)
+CallDLL (0, 21)
+intC[0] += 1
+
+  @158
+#res<0074>
+goto @150
+
+  @159
+strS[1901] = strS[1900]
+strS[1900] = 'Error: '
+strS[1900] += strS[1901]
+strS[1900] += '. Unable to format text.'
+strclear (strS[1901])
+FastText
+#res<0075>
+NormalText
+
+  @160
+EnableAutoSavepoints
+ret
+goto @150
+intC[1] = 0
+goto @163
+
+  @161
+intC[1] = 1
+goto @163
+
+  @162
+intC[1] = 2
+
+  @163
+store = 8
+strS[1902] = '        '
+
+  @164
+goto_unless (store < 2048) @165
+strS[1902] += strS[1902]
+store *= 2
+goto @164
+
+  @165
+FlushClick
+spause
+GetCursorPos (intC[3], intC[4], intC[2], store)
+goto_if (intC[2] != 2) @170
+GetWakuAll
+CallDLL (0, 23, intC[3], intC[4], 1181550, store)
+goto_if (!store) @170
+TextWindow (1)
+#res<0076>
+CallDLL (0, 10, -1)
+CallDLL (0, 11, 1181550)
+gosub @148
+goto_unless (intC[0]) @166
+gosub @162
+goto @167
+
+  @166
+pause
+
+  @167
+msgHide
+TextWindow (0)
+goto_unless (intC[0]) @168
+gosub @162
+goto @169
+
+  @168
+pause
+
+  @169
+goto @170
+goto @165
+
+  @170
+goto_on intC[1] {  @173, @172, @171 }
+goto @173
+
+  @171
+CallDLL (0, 104, -1)
+goto_unless (store) @172
+#res<0077>
+strS[1900] = ''
+gosub @147
+goto @173
+
+  @172
+intC[0] = 0
+msgClear
+CallDLL (0, 20)
+
+  @173
+store = 1
+ret
+eof
